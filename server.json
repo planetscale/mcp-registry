@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.planetscale/mcp-server",
+  "title": "PlanetScale",
+  "description": "Connect to PlanetScale databases, branches, schema, query insights, and execute SQL",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/planetscale/mcp-server",
+    "source": "github"
+  },
+  "websiteUrl": "https://planetscale.com/docs/connect/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.pscale.dev/mcp/planetscale"
+    }
+  ]
+}
